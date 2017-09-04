@@ -9,12 +9,13 @@ package praktikum;
  *
  * @author WINDOWS 8.1
  */
-public class induk {
-    public void test(){
-        System.out.println("Method di dalam kelas induk");   
+public class uji {
+    public static void main(String[] args){
+        induk a =new induk();
+        turunan b = new turunan();
+        
+        a.test();
+        b.test();
+        b.test("icha");
     }
-
 }
-
-
-

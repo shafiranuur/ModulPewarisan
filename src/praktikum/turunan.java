@@ -9,12 +9,12 @@ package praktikum;
  *
  * @author WINDOWS 8.1
  */
-public class induk {
-    public void test(){
-        System.out.println("Method di dalam kelas induk");   
+class turunan extends induk{
+    public void test(String s){
+        System.out.println("Method overload di dalam kelas turunan");
+        System.out.println("s : \"" +s+ "\"");
     }
-
+    public void test(){
+        System.out.println("method override di dalam kelas turunan");
+    }
 }
-
-
-
